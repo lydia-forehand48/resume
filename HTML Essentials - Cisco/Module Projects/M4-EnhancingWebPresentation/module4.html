@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sunnydale School</title>
+        <meta charset="UTF-8">
+        <style>
+            h1 {
+                font-size: 24px; 
+                font-weight: bold; 
+                color: #1E90FF;
+            }
+            body {
+                font-family: 'Arial', sans-serif;
+            }
+            #mission-statement {
+                color: #32CD32;
+            }
+            #upcoming-events {
+                color: #FFA07A;
+            }
+            #contact-us {
+                color: #20B2AA;
+            }
+            .header {
+                background-color: #f8f3f3
+            }
+            .date {
+                font-weight: bold;
+                color: red;
+            }
+            .outdoor {
+                background-color: #AFEEEE;
+                padding: 5px;
+            }
+            .section {
+                background-color: #f8f3f3;
+                padding: 10px;
+            }
+        </style>
+    </head>
+
+    <!--This is a project for Module 4: Enhancing Web Presentation of Cisco Networking Academy's HTML Essentials course.-->
+
+    <body>
+        <div class="header">
+        <h1>Sunnydale School</h1>
+        </div>
+
+        <p>Welcome to Sunnydale School, dedicated to fostering a love of learning in every student.</p>
+
+        <h2 id="mission-statement">Mission Statement</h2>
+        <p>Our mission is to provide a quality education that prepares all children for a successful future.</p>
+
+        <h2 id="upcoming-events">Upcoming Events</h2>
+        <ul>
+            <li>Science Fair - <span class="date">June 10</span></li>
+            <li class="outdoor" title="Event Type: Outdoor">Art Exhibition - <span class="date">June 15</span></li>
+            <li class="outdoor" data-event-type="outdoor" title="Event Type: Outdoor">Sports Day - <span class="date">June 20</span></li>
+        </ul>
+
+        <div class="section">
+        <h2 id="contact-us">Contact Us</h2>
+        <p>Email: <a href="mailto:info@sunnydaleschool.com" title="Thanks for reaching out!">info@sunnydaleschool.com</a></p>
+        <p>Phone: <a href="tel:555-1234" title="Thanks for reaching out!">555-1234</a></p>
+        </div>
+    </body>
+</html>
